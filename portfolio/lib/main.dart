@@ -23,7 +23,8 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white),
+                    color: Colors.white,
+                    fontFamily: 'Pacifico'),
               ),
               Text(
                 'WEB DEVELOPER',
@@ -31,7 +32,8 @@ class MyApp extends StatelessWidget {
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
                     letterSpacing: 2.5,
-                    fontSize: 20),
+                    fontSize: 20,
+                    fontFamily: 'Source San Pro'),
               ),
               SizedBox(
                 height: 20,
@@ -49,7 +51,10 @@ class MyApp extends StatelessWidget {
                   ),
                   title: Text(
                     '0765238336',
-                    style: TextStyle(color: Color(0xFF014740), fontSize: 20),
+                    style: TextStyle(
+                        color: Color(0xFF014740),
+                        fontSize: 20,
+                        fontFamily: 'Source San Pro'),
                   ),
                 ),
               ),
@@ -63,7 +68,10 @@ class MyApp extends StatelessWidget {
                   ),
                   title: Text(
                     'moeinjanshanrifi@gmail.com',
-                    style: TextStyle(color: Color(0xFF014740), fontSize: 20),
+                    style: TextStyle(
+                        fontFamily: 'Source San Pro',
+                        color: Color(0xFF014740),
+                        fontSize: 20),
                   ),
                 ),
               )

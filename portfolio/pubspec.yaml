@@ -1,6 +1,5 @@
-name: portfolio
+name: flutter_application_1
 description: A new Flutter project.
-publish_to: "none"
 version: 1.0.0+1
 
 environment:
@@ -18,3 +17,12 @@ flutter:
   uses-material-design: true
   assets:
     - images/moein.jpg
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+    - family: Source San Pro
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf
